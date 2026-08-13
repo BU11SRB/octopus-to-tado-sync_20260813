@@ -576,7 +576,7 @@ def main():
     # Send the total consumption to Tado
     send_reading_to_tado_client(tado, consumption)
 
-    if args.update_tariff:
+    if args.update-tariff:
         if not args.octopus_account_number:
             print(
                 "--update-tariff was enabled but no Octopus account number was "
